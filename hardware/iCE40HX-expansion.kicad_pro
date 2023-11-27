@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -445,7 +445,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.14,
+        "clearance": 0.09,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -455,31 +455,48 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
-        "via_diameter": 0.65,
-        "via_drill": 0.35,
+        "track_width": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.3,
+        "clearance": 0.09,
+        "diff_pair_gap": 0.14,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.166,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "100Ω_Diff",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.166,
+        "via_diameter": 0.45,
+        "via_drill": 0.25,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "mains",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "name": "50Ω_Single",
+        "pcb_color": "rgb(255, 153, 0)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.6,
-        "via_diameter": 0.85,
-        "via_drill": 0.5,
+        "track_width": 0.166,
+        "via_diameter": 0.45,
+        "via_drill": 0.25,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.14,
+        "clearance": 0.09,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -487,28 +504,11 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(0, 194, 194)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "via_diameter": 0.76,
-        "via_drill": 0.45,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.127,
-        "diff_pair_gap": 0.13,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.31,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "usb",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.31,
-        "via_diameter": 0.58,
-        "via_drill": 0.32,
+        "track_width": 0.35,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -517,7 +517,196 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "power",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "power",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "power",
+        "pattern": "+1V8"
+      },
+      {
+        "netclass": "power",
+        "pattern": "+1V2"
+      },
+      {
+        "netclass": "power",
+        "pattern": "+3V0"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO1_20"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO1_21"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO1_22"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO1_23"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO1_24"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO1_25"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO1_26"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO1_27"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO1_28"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO1_29"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO1_30"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO1_31"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO1_32"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO1_33"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO1_34"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO1_19"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO1_35"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO1_36"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO1_37"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO1_38"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO1_39"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO1_40"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO1_41"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO1_42"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO1_43"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO1_44"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO1_45"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO1_46"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO0_09"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO0_10"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO0_11"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO0_12"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO0_13"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO0_14"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO0_15"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO0_16"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO0_17"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO0_18"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO0_19"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO0_20"
+      },
+      {
+        "netclass": "50Ω_Single",
+        "pattern": "/PIO0_21"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
