@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "C459884")(type "KiCad")(uri "${KIPRJMOD}/libs/C459884/C459884.kicad_sym")(options "")(descr ""))
+  (lib (name "New_Library")(type "KiCad")(uri "${KIPRJMOD}/libs/mylib/New_Library.kicad_sym")(options "")(descr ""))
+)
