@@ -4,4 +4,5 @@
   (lib (name "C711364")(type "KiCad")(uri "${KIPRJMOD}/libs/C711364/C711364.pretty")(options "")(descr ""))
   (lib (name "mylib")(type "KiCad")(uri "${KIPRJMOD}/libs/mylib")(options "")(descr ""))
   (lib (name "C2797218")(type "KiCad")(uri "${KIPRJMOD}/libs/C2797218/C2797218.pretty")(options "")(descr ""))
+  (lib (name "tw884x")(type "KiCad")(uri "${KIPRJMOD}/libs/tw884x/tw884x.pretty")(options "")(descr ""))
 )

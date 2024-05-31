@@ -1,82 +1,80 @@
-11-22 19:35:26 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'linux'
-11-22 19:35:26 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]'
-11-22 19:35:26 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 7.0.9-7.0.9~ubuntu22.04.1
-11-22 19:35:26 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 2.1.3
-11-22 19:35:26 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x7f780c3a4dc0>
-11-22 19:35:26 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with U6 as a reference
-11-22 19:35:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
-11-22 19:35:26 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'U6'
-Located on: ['R2R-DAC']
-With filenames: ['R2R-DAC.kicad_sch']
-With sheet_id:['R2R-DAC']
-11-22 19:35:26 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
-[('U4', ['R2R-DAC2']), ('U6', ['R2R-DAC']), ('U3', ['R2R-DAC1'])]
-11-22 19:35:26 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
-11-22 19:35:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'R2R-DAC', file:'R2R-DAC.kicad_sch'
-11-22 19:35:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['R2R-DAC1'], ['R2R-DAC2']]
-11-22 19:35:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['R2R-DAC']
-11-22 19:35:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
-11-22 19:35:27 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(1886, 124)
-11-22 19:35:27 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(1447, 124)
-11-22 19:35:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'R2R-DAC', file:'R2R-DAC.kicad_sch'
-11-22 19:35:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['R2R-DAC1'], ['R2R-DAC2']]
-11-22 19:35:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['R2R-DAC']
-11-22 19:35:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
-11-22 19:35:39 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'R2R-DAC', file:'R2R-DAC.kicad_sch'
-11-22 19:35:39 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['R2R-DAC1'], ['R2R-DAC2']]
-11-22 19:35:39 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
-11-22 19:35:39 com_github_MitjaNemec_ReplicateLayout.replicate_layout 240:Starting replication of sheets: [['R2R-DAC1'], ['R2R-DAC2']]
-on level: ['R2R-DAC']
-with tracks=True, zone=False, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
-11-22 19:35:39 root 332:updating GUI message: 'Preparing for replication'
-11-22 19:35:40 root 337:updating GUI with: 0
-11-22 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 310:Getting the list of source footprints
-11-22 19:35:40 root 337:updating GUI with: 0
-11-22 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 320:Getting the list of all the remaining footprints
-11-22 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 327:Getting source tracks
-11-22 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
-11-22 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 331:Getting source zones
-11-22 19:35:40 root 337:updating GUI with: 50
-11-22 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:Getting source text items
-11-22 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 339:Getting source drawing items
-11-22 19:35:40 root 337:updating GUI with: 83
-11-22 19:35:40 root 332:updating GUI message: 'Replicating footprints'
-11-22 19:35:40 root 337:updating GUI with: 0
-11-22 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 806:Replicating footprints
-11-22 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['R2R-DAC1']
-11-22 19:35:40 root 337:updating GUI with: 16
-11-22 19:35:40 root 337:updating GUI with: 42
-11-22 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['R2R-DAC2']
-11-22 19:35:40 root 337:updating GUI with: 57
-11-22 19:35:40 root 337:updating GUI with: 83
-11-22 19:35:40 root 332:updating GUI message: 'Replicating tracks'
-11-22 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 977:Replicating tracks
-11-22 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['R2R-DAC1']
-11-22 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'RED'] and dst net: ['', 'GREEN'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
-11-22 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'RED'] and dst net: ['', 'GREEN'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
-11-22 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['R2R-DAC1'] :[('Net-(R85-Pad2)', 'Net-(R10-Pad2)'), ('/PIO1_18', '/PIO1_26'), ('+3V3', '+3V3'), ('/PIO1_21', '/PIO1_29'), ('Net-(U6-B1)', 'Net-(U3-B1)'), ('Net-(R100-Pad2)', 'Net-(R17-Pad2)'), ('Net-(R102-Pad1)', 'Net-(R20-Pad2)'), ('/PIO1_14', '/PIO1_22'), ('/PIO1_19', '/PIO1_27'), ('/PIO1_16', '/PIO1_24'), ('Net-(R101-Pad1)', 'Net-(R19-Pad2)'), ('Net-(R86-Pad2)', 'Net-(R11-Pad2)'), ('Net-(R83-Pad2)', 'Net-(R17-Pad1)'), ('Net-(U6-B0)', 'Net-(U3-B0)'), ('Net-(R90-Pad2)', 'Net-(R15-Pad2)'), ('Net-(R89-Pad2)', 'Net-(R14-Pad2)'), ('Net-(R81-Pad2)', 'Net-(R15-Pad1)'), ('Net-(U6-B6)', 'Net-(U3-B6)'), ('/PIO1_20', '/PIO1_28'), ('GND', 'GND'), ('/PIO1_17', '/PIO1_25'), ('Net-(R82-Pad2)', 'Net-(R16-Pad1)'), ('Net-(R100-Pad1)', 'Net-(R18-Pad2)'), ('Net-(U6-B5)', 'Net-(U3-B5)'), ('Net-(R103-Pad1)', 'Net-(R21-Pad2)'), ('Net-(R104-Pad1)', 'Net-(R22-Pad2)'), ('Net-(R88-Pad2)', 'Net-(R13-Pad2)'), ('Net-(U6-B7)', 'Net-(U3-B7)'), ('/PIO1_15', '/PIO1_23'), ('Net-(R84-Pad2)', 'Net-(R18-Pad1)'), ('Net-(U6-B4)', 'Net-(U3-B4)'), ('Net-(U6-B2)', 'Net-(U3-B2)'), ('Net-(U6-B3)', 'Net-(U3-B3)'), ('Net-(R87-Pad2)', 'Net-(R12-Pad2)'), ('/RED', '/GREEN')]
-11-22 19:35:40 root 337:updating GUI with: 0
-11-22 19:35:40 root 337:updating GUI with: 47
-11-22 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['R2R-DAC2']
-11-22 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'RED'] and dst net: ['', 'BLUE'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.64
-11-22 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'RED'] and dst net: ['', 'BLUE'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.64
-11-22 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['R2R-DAC2'] :[('+3V3', '+3V3'), ('/PIO1_18', '/PIO1_34'), ('Net-(R83-Pad2)', 'Net-(R33-Pad2)'), ('Net-(R86-Pad2)', 'Net-(R36-Pad2)'), ('Net-(R85-Pad2)', 'Net-(R35-Pad2)'), ('Net-(R100-Pad2)', 'Net-(R42-Pad2)'), ('Net-(R87-Pad2)', 'Net-(R37-Pad2)'), ('/PIO1_21', '/PIO1_37'), ('Net-(R89-Pad2)', 'Net-(R39-Pad2)'), ('Net-(R84-Pad2)', 'Net-(R34-Pad2)'), ('/PIO1_19', '/PIO1_35'), ('Net-(U6-B5)', 'Net-(U4-B5)'), ('/RED', '/BLUE'), ('GND', 'GND'), ('/PIO1_16', '/PIO1_32'), ('Net-(R88-Pad2)', 'Net-(R38-Pad2)'), ('Net-(U6-B3)', 'Net-(U4-B3)'), ('Net-(R104-Pad1)', 'Net-(R47-Pad2)'), ('Net-(U6-B4)', 'Net-(U4-B4)'), ('/PIO1_14', '/PIO1_30'), ('/PIO1_15', '/PIO1_31'), ('/PIO1_17', '/PIO1_33'), ('Net-(R101-Pad1)', 'Net-(R44-Pad2)'), ('Net-(U6-B7)', 'Net-(U4-B7)'), ('Net-(R103-Pad1)', 'Net-(R46-Pad2)'), ('Net-(U6-B2)', 'Net-(U4-B2)'), ('Net-(R81-Pad2)', 'Net-(R31-Pad2)'), ('Net-(R82-Pad2)', 'Net-(R32-Pad2)'), ('Net-(U6-B6)', 'Net-(U4-B6)'), ('/PIO1_20', '/PIO1_36'), ('Net-(R100-Pad1)', 'Net-(R43-Pad2)'), ('Net-(U6-B1)', 'Net-(U4-B1)'), ('Net-(R102-Pad1)', 'Net-(R45-Pad2)'), ('Net-(R90-Pad2)', 'Net-(R40-Pad2)'), ('Net-(U6-B0)', 'Net-(U4-B0)')]
-11-22 19:35:40 root 337:updating GUI with: 69
-11-22 19:35:40 root 332:updating GUI message: 'Replicating text'
-11-22 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1136:Replicating text
-11-22 19:35:40 root 337:updating GUI with: 0
-11-22 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['R2R-DAC1']
-11-22 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['R2R-DAC2']
-11-22 19:35:40 root 332:updating GUI message: 'Replicating drawings'
-11-22 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1187:Replicating drawings
-11-22 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['R2R-DAC1']
-11-22 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['R2R-DAC2']
-11-22 19:35:40 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete
-11-22 19:35:40 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 259:Letting the user know there are some issues with replicated design
-11-22 19:35:40 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 263:Looks like the design has an exotic connectivity that the plugin might not handle properly
+06-01 01:17:58 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'linux'
+06-01 01:17:58 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.11.6 (main, Oct  8 2023, 05:06:43) [GCC 13.2.0]'
+06-01 01:17:58 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 7.0.11-7.0.11~ubuntu23.10.1
+06-01 01:17:58 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 2.1.3
+06-01 01:17:58 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x73b99c1c0e50>
+06-01 01:17:58 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with U4 as a reference
+06-01 01:17:58 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+06-01 01:17:58 com_github_MitjaNemec_ReplicateLayout.replicate_layout 136:Footprint REF** does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
+06-01 01:17:58 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'U4'
+Located on: ['VGA', 'R2R-DAC2']
+With filenames: ['VGA.kicad_sch', 'R2R-DAC.kicad_sch']
+With sheet_id:['VGA', 'R2R-DAC2']
+06-01 01:17:58 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
+[('U4', ['VGA', 'R2R-DAC2']), ('U6', ['VGA', 'R2R-DAC']), ('U3', ['VGA', 'R2R-DAC1'])]
+06-01 01:17:58 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
+06-01 01:17:58 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'R2R-DAC2', file:'R2R-DAC.kicad_sch'
+06-01 01:17:58 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['VGA', 'R2R-DAC'], ['VGA', 'R2R-DAC1']]
+06-01 01:17:58 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['VGA', 'R2R-DAC2']
+06-01 01:17:58 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+06-01 01:17:58 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(3806, 89)
+06-01 01:17:58 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(3367, 89)
+06-01 01:18:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'R2R-DAC2', file:'R2R-DAC.kicad_sch'
+06-01 01:18:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['VGA', 'R2R-DAC'], ['VGA', 'R2R-DAC1']]
+06-01 01:18:15 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
+06-01 01:18:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 240:Starting replication of sheets: [['VGA', 'R2R-DAC'], ['VGA', 'R2R-DAC1']]
+on level: ['VGA', 'R2R-DAC2']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
+06-01 01:18:15 root 332:updating GUI message: 'Preparing for replication'
+06-01 01:18:15 root 337:updating GUI with: 0
+06-01 01:18:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 310:Getting the list of source footprints
+06-01 01:18:15 root 337:updating GUI with: 0
+06-01 01:18:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 320:Getting the list of all the remaining footprints
+06-01 01:18:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 327:Getting source tracks
+06-01 01:18:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+06-01 01:18:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 331:Getting source zones
+06-01 01:18:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:Getting source text items
+06-01 01:18:15 root 337:updating GUI with: 66
+06-01 01:18:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 339:Getting source drawing items
+06-01 01:18:15 root 337:updating GUI with: 83
+06-01 01:18:15 root 332:updating GUI message: 'Replicating footprints'
+06-01 01:18:15 root 337:updating GUI with: 0
+06-01 01:18:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 806:Replicating footprints
+06-01 01:18:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['VGA', 'R2R-DAC']
+06-01 01:18:15 root 337:updating GUI with: 39
+06-01 01:18:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['VGA', 'R2R-DAC1']
+06-01 01:18:15 root 337:updating GUI with: 91
+06-01 01:18:15 root 332:updating GUI message: 'Replicating tracks'
+06-01 01:18:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 977:Replicating tracks
+06-01 01:18:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['VGA', 'R2R-DAC']
+06-01 01:18:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'VGA', 'BLUE'] and dst net: ['', 'VGA', 'RED'], with src_net_depth=3, dst_net_depth=3, src_fp_depth=2, dst_fp_depth=2, match level 0.76
+06-01 01:18:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'VGA', 'BLUE'] and dst net: ['', 'VGA', 'RED'], with src_net_depth=3, dst_net_depth=3, src_fp_depth=2, dst_fp_depth=2, match level 0.76
+06-01 01:18:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['VGA', 'R2R-DAC'] :[('GND', 'GND'), ('/VGA_BLUE7', '/VGA_RED7'), ('/VGA_BLUE5', '/VGA_RED5'), ('Net-(R42-Pad2)', 'Net-(R73-Pad2)'), ('Net-(R38-Pad2)', 'Net-(R69-Pad2)'), ('Net-(R31-Pad2)', 'Net-(R62-Pad2)'), ('/VGA_BLUE4', '/VGA_RED4'), ('Net-(R40-Pad2)', 'Net-(R71-Pad2)'), ('Net-(U4-B7)', 'Net-(U6-B7)'), ('/VGA_BLUE6', '/VGA_RED6'), ('/VGA_BLUE0', '/VGA_RED0'), ('Net-(U4-B4)', 'Net-(U6-B4)'), ('Net-(R35-Pad2)', 'Net-(R66-Pad2)'), ('Net-(R30-Pad2)', 'Net-(R55-Pad2)'), ('Net-(R41-Pad2)', 'Net-(R72-Pad2)'), ('/VGA_BLUE3', '/VGA_RED3'), ('Net-(U4-B0)', 'Net-(U6-B0)'), ('Net-(U4-B2)', 'Net-(U6-B2)'), ('/VGA/BLUE', '/VGA/RED'), ('+3V3', '+3V3'), ('Net-(U4-B1)', 'Net-(U6-B1)'), ('Net-(R26-Pad2)', 'Net-(R51-Pad2)'), ('Net-(R34-Pad2)', 'Net-(R65-Pad2)'), ('Net-(R39-Pad2)', 'Net-(R70-Pad2)'), ('Net-(R33-Pad2)', 'Net-(R64-Pad2)'), ('Net-(R32-Pad2)', 'Net-(R63-Pad2)'), ('Net-(U4-B6)', 'Net-(U6-B6)'), ('Net-(R29-Pad2)', 'Net-(R54-Pad2)'), ('/VGA_BLUE1', '/VGA_RED1'), ('Net-(U4-B5)', 'Net-(U6-B5)'), ('Net-(R28-Pad2)', 'Net-(R53-Pad2)'), ('Net-(R27-Pad2)', 'Net-(R52-Pad2)'), ('Net-(U4-B3)', 'Net-(U6-B3)'), ('/VGA_BLUE2', '/VGA_RED2'), ('Net-(R37-Pad2)', 'Net-(R68-Pad2)')]
+06-01 01:18:15 root 337:updating GUI with: 0
+06-01 01:18:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['VGA', 'R2R-DAC1']
+06-01 01:18:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['VGA', 'R2R-DAC1'] :[('GND', 'GND'), ('Net-(U4-B7)', 'Net-(U3-B7)'), ('Net-(R34-Pad2)', 'Net-(R18-Pad1)'), ('/VGA_BLUE4', '/VGA_GREEN4'), ('Net-(R41-Pad2)', 'Net-(R16-Pad2)'), ('Net-(R38-Pad2)', 'Net-(R13-Pad2)'), ('Net-(R35-Pad2)', 'Net-(R10-Pad2)'), ('Net-(R32-Pad2)', 'Net-(R16-Pad1)'), ('/VGA_BLUE3', '/VGA_GREEN3'), ('/VGA/BLUE', '/VGA/GREEN'), ('/VGA_BLUE5', '/VGA_GREEN5'), ('Net-(R37-Pad2)', 'Net-(R12-Pad2)'), ('/VGA_BLUE2', '/VGA_GREEN2'), ('Net-(R33-Pad2)', 'Net-(R17-Pad1)'), ('/VGA_BLUE7', '/VGA_GREEN7'), ('+3V3', '+3V3'), ('/VGA_BLUE0', '/VGA_GREEN0'), ('Net-(U4-B3)', 'Net-(U3-B3)'), ('Net-(R42-Pad2)', 'Net-(R17-Pad2)'), ('/VGA_BLUE6', '/VGA_GREEN6'), ('Net-(R30-Pad2)', 'Net-(R14-Pad1)'), ('/VGA_BLUE1', '/VGA_GREEN1'), ('Net-(R40-Pad2)', 'Net-(R15-Pad2)'), ('Net-(R26-Pad2)', 'Net-(R1-Pad2)'), ('Net-(R31-Pad2)', 'Net-(R15-Pad1)'), ('Net-(U4-B6)', 'Net-(U3-B6)'), ('Net-(U4-B5)', 'Net-(U3-B5)'), ('Net-(R39-Pad2)', 'Net-(R14-Pad2)'), ('Net-(R28-Pad2)', 'Net-(R12-Pad1)'), ('Net-(R29-Pad2)', 'Net-(R13-Pad1)'), ('Net-(U4-B1)', 'Net-(U3-B1)'), ('Net-(R27-Pad2)', 'Net-(R11-Pad1)'), ('Net-(U4-B0)', 'Net-(U3-B0)'), ('Net-(U4-B2)', 'Net-(U3-B2)'), ('Net-(U4-B4)', 'Net-(U3-B4)')]
+06-01 01:18:16 root 337:updating GUI with: 93
+06-01 01:18:16 root 332:updating GUI message: 'Replicating zones'
+06-01 01:18:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1047:Replicating zones
+06-01 01:18:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['VGA', 'R2R-DAC']
+06-01 01:18:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'VGA', 'BLUE'] and dst net: ['', 'VGA', 'RED'], with src_net_depth=3, dst_net_depth=3, src_fp_depth=2, dst_fp_depth=2, match level 0.76
+06-01 01:18:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'VGA', 'BLUE'] and dst net: ['', 'VGA', 'RED'], with src_net_depth=3, dst_net_depth=3, src_fp_depth=2, dst_fp_depth=2, match level 0.76
+06-01 01:18:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['VGA', 'R2R-DAC'] :[('GND', 'GND'), ('/VGA_BLUE7', '/VGA_RED7'), ('/VGA_BLUE5', '/VGA_RED5'), ('Net-(R42-Pad2)', 'Net-(R73-Pad2)'), ('Net-(R38-Pad2)', 'Net-(R69-Pad2)'), ('Net-(R31-Pad2)', 'Net-(R62-Pad2)'), ('/VGA_BLUE4', '/VGA_RED4'), ('Net-(R40-Pad2)', 'Net-(R71-Pad2)'), ('Net-(U4-B7)', 'Net-(U6-B7)'), ('/VGA_BLUE6', '/VGA_RED6'), ('/VGA_BLUE0', '/VGA_RED0'), ('Net-(U4-B4)', 'Net-(U6-B4)'), ('Net-(R35-Pad2)', 'Net-(R66-Pad2)'), ('Net-(R30-Pad2)', 'Net-(R55-Pad2)'), ('Net-(R41-Pad2)', 'Net-(R72-Pad2)'), ('/VGA_BLUE3', '/VGA_RED3'), ('Net-(U4-B0)', 'Net-(U6-B0)'), ('Net-(U4-B2)', 'Net-(U6-B2)'), ('/VGA/BLUE', '/VGA/RED'), ('+3V3', '+3V3'), ('Net-(U4-B1)', 'Net-(U6-B1)'), ('Net-(R26-Pad2)', 'Net-(R51-Pad2)'), ('Net-(R34-Pad2)', 'Net-(R65-Pad2)'), ('Net-(R39-Pad2)', 'Net-(R70-Pad2)'), ('Net-(R33-Pad2)', 'Net-(R64-Pad2)'), ('Net-(R32-Pad2)', 'Net-(R63-Pad2)'), ('Net-(U4-B6)', 'Net-(U6-B6)'), ('Net-(R29-Pad2)', 'Net-(R54-Pad2)'), ('/VGA_BLUE1', '/VGA_RED1'), ('Net-(U4-B5)', 'Net-(U6-B5)'), ('Net-(R28-Pad2)', 'Net-(R53-Pad2)'), ('Net-(R27-Pad2)', 'Net-(R52-Pad2)'), ('Net-(U4-B3)', 'Net-(U6-B3)'), ('/VGA_BLUE2', '/VGA_RED2'), ('Net-(R37-Pad2)', 'Net-(R68-Pad2)')]
+06-01 01:18:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['VGA', 'R2R-DAC1']
+06-01 01:18:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['VGA', 'R2R-DAC1'] :[('GND', 'GND'), ('Net-(U4-B7)', 'Net-(U3-B7)'), ('Net-(R34-Pad2)', 'Net-(R18-Pad1)'), ('/VGA_BLUE4', '/VGA_GREEN4'), ('Net-(R41-Pad2)', 'Net-(R16-Pad2)'), ('Net-(R38-Pad2)', 'Net-(R13-Pad2)'), ('Net-(R35-Pad2)', 'Net-(R10-Pad2)'), ('Net-(R32-Pad2)', 'Net-(R16-Pad1)'), ('/VGA_BLUE3', '/VGA_GREEN3'), ('/VGA/BLUE', '/VGA/GREEN'), ('/VGA_BLUE5', '/VGA_GREEN5'), ('Net-(R37-Pad2)', 'Net-(R12-Pad2)'), ('/VGA_BLUE2', '/VGA_GREEN2'), ('Net-(R33-Pad2)', 'Net-(R17-Pad1)'), ('/VGA_BLUE7', '/VGA_GREEN7'), ('+3V3', '+3V3'), ('/VGA_BLUE0', '/VGA_GREEN0'), ('Net-(U4-B3)', 'Net-(U3-B3)'), ('Net-(R42-Pad2)', 'Net-(R17-Pad2)'), ('/VGA_BLUE6', '/VGA_GREEN6'), ('Net-(R30-Pad2)', 'Net-(R14-Pad1)'), ('/VGA_BLUE1', '/VGA_GREEN1'), ('Net-(R40-Pad2)', 'Net-(R15-Pad2)'), ('Net-(R26-Pad2)', 'Net-(R1-Pad2)'), ('Net-(R31-Pad2)', 'Net-(R15-Pad1)'), ('Net-(U4-B6)', 'Net-(U3-B6)'), ('Net-(U4-B5)', 'Net-(U3-B5)'), ('Net-(R39-Pad2)', 'Net-(R14-Pad2)'), ('Net-(R28-Pad2)', 'Net-(R12-Pad1)'), ('Net-(R29-Pad2)', 'Net-(R13-Pad1)'), ('Net-(U4-B1)', 'Net-(U3-B1)'), ('Net-(R27-Pad2)', 'Net-(R11-Pad1)'), ('Net-(U4-B0)', 'Net-(U3-B0)'), ('Net-(U4-B2)', 'Net-(U3-B2)'), ('Net-(U4-B4)', 'Net-(U3-B4)')]
+06-01 01:18:16 root 337:updating GUI with: 75
+06-01 01:18:16 root 332:updating GUI message: 'Replicating text'
+06-01 01:18:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1136:Replicating text
+06-01 01:18:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['VGA', 'R2R-DAC']
+06-01 01:18:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['VGA', 'R2R-DAC1']
+06-01 01:18:16 root 332:updating GUI message: 'Replicating drawings'
+06-01 01:18:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1187:Replicating drawings
+06-01 01:18:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['VGA', 'R2R-DAC']
+06-01 01:18:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['VGA', 'R2R-DAC1']
+06-01 01:18:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete
+06-01 01:18:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 259:Letting the user know there are some issues with replicated design
+06-01 01:18:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 263:Looks like the design has an exotic connectivity that the plugin might not handle properly
  Make sure that you check the connectivity around:
-Footprint R23, pad 2
-Footprint R48, pad 2
-Footprint R30, pad 1
-Footprint R55, pad 1
+Footprint R81, pad 1
+Footprint R74, pad 2
 

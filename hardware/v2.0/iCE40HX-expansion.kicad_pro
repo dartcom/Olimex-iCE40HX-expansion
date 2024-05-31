@@ -95,10 +95,10 @@
         "silk_over_copper": "ignore",
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
-        "text_height": "ignore",
-        "text_thickness": "ignore",
+        "text_height": "warning",
+        "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
@@ -110,22 +110,22 @@
         "zones_intersect": "error"
       },
       "rules": {
-        "max_error": 0.005,
-        "min_clearance": 0.127,
+        "max_error": 0.001,
+        "min_clearance": 0.09,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.3,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.254,
         "min_hole_to_hole": 0.5,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.15,
         "min_text_height": 1.0,
-        "min_text_thickness": 0.153,
+        "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.19999999999999998,
-        "min_track_width": 0.127,
-        "min_via_annular_width": 0.09999999999999999,
-        "min_via_diameter": 0.5,
+        "min_track_width": 0.09,
+        "min_via_annular_width": 0.075,
+        "min_via_diameter": 0.25,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -189,7 +189,16 @@
         0.85,
         0.9,
         0.95,
-        1.0
+        1.0,
+        1.2,
+        1.25,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5,
+        4.0,
+        4.5
       ],
       "via_dimensions": [
         {
@@ -197,20 +206,12 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.5,
+          "diameter": 0.45,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.45,
           "drill": 0.3
-        },
-        {
-          "diameter": 0.55,
-          "drill": 0.35
-        },
-        {
-          "diameter": 0.65,
-          "drill": 0.45
-        },
-        {
-          "diameter": 0.76,
-          "drill": 0.45
         }
       ],
       "zones_allow_external_fillets": false
@@ -759,16 +760,32 @@
       ""
     ],
     [
-      "7ac7bf3d-dfca-4c0b-a07e-5d68111d5a02",
-      "R2R-DAC"
-    ],
-    [
-      "373d5ded-f0cf-46f9-b60a-c9b563b4aa8b",
+      "dbe474f5-5771-4549-970a-95883a7c3391",
       "R2R-DAC1"
     ],
     [
-      "d37788e1-56ca-4e95-ad8e-f60f48806820",
+      "a1fc9d30-ee91-45f6-84ad-9ebf7b68857b",
       "R2R-DAC2"
+    ],
+    [
+      "be20e3eb-564b-4110-8ba1-1f1d158400ae",
+      "R2R-DAC"
+    ],
+    [
+      "233d3f87-3fb3-4060-8ab2-5c709a19f974",
+      "tw884x"
+    ],
+    [
+      "849e87a6-34de-489a-8884-4cf02fcc6429",
+      "VGA"
+    ],
+    [
+      "2630d0a9-5eaa-4352-8990-55f50ac560a6",
+      "power"
+    ],
+    [
+      "1658889e-2a2e-4ba3-910c-0b93b35a6b83",
+      "adv7611"
     ]
   ],
   "text_variables": {}
